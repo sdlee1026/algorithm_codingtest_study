@@ -13,24 +13,39 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\programmers">
+      <UniqueIdentifier>{2ca688ee-6d88-4034-9705-d1e1515538db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\codesignal">
+      <UniqueIdentifier>{4433e2b0-f149-4e1a-87ba-563e167d8b5a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="algorithm.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="programmers_118667.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="codesignal\codesignal_challenge_isAdmissibleOverpayment.cpp">
+      <Filter>소스 파일\codesignal</Filter>
     </ClCompile>
-    <ClCompile Include="programmers_118668.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="programmers\programmers_118667.cpp">
+      <Filter>소스 파일\programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="programmers\programmers_118668.cpp">
+      <Filter>소스 파일\programmers</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="programmers_118667.h">
+    <ClInclude Include="codeHeader.h">
       <Filter>소스 파일</Filter>
     </ClInclude>
-    <ClInclude Include="programmers_118668.h">
-      <Filter>소스 파일</Filter>
+    <ClInclude Include="codesignal\codesignal_challenge_isAdmissibleOverpayment.h">
+      <Filter>소스 파일\codesignal</Filter>
+    </ClInclude>
+    <ClInclude Include="programmers\programmers_118667.h">
+      <Filter>소스 파일\programmers</Filter>
+    </ClInclude>
+    <ClInclude Include="programmers\programmers_118668.h">
+      <Filter>소스 파일\programmers</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

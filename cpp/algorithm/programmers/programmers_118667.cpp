@@ -1,7 +1,4 @@
-#include <string>
-#include <vector>
 #include "programmers_118667.h"
-using namespace std;
 
 // https://school.programmers.co.kr/learn/courses/30/lessons/118667
 /*

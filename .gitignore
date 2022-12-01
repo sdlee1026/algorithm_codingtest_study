@@ -135,3 +135,4 @@ dmypy.json
 .DS_store
 /cpp/algorithm/.vs/algorithm/v17
 /cpp/algorithm/x64/Debug
+/cpp/algorithm/.vs/algorithm/FileContentIndex
