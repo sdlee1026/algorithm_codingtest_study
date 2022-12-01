@@ -3,6 +3,7 @@
 #include "programmers/programmers_118668.h"
 #include "codesignal/challenge/codesignal_challenge_isAdmissibleOverpayment.h"
 #include "codesignal/arcade/codesignal_arcade_EdgeOfTheOcean.h"
+#include "codesignal/arcade/codesignal_arcade_SmoothSailing.h"
 
 
 int main()

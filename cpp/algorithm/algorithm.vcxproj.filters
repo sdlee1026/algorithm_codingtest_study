@@ -42,6 +42,9 @@
     <ClCompile Include="codesignal\challenge\codesignal_challenge_isAdmissibleOverpayment.cpp">
       <Filter>SourceCode\codesignal\challenge</Filter>
     </ClCompile>
+    <ClCompile Include="codesignal\arcade\codesignal_arcade_SmoothSailing.cpp">
+      <Filter>SourceCode\codesignal\arcade</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="codeHeader.h">
@@ -57,6 +60,9 @@
       <Filter>Headerfile</Filter>
     </ClInclude>
     <ClInclude Include="codesignal\arcade\codesignal_arcade_EdgeOfTheOcean.h">
+      <Filter>Headerfile</Filter>
+    </ClInclude>
+    <ClInclude Include="codesignal\arcade\codesignal_arcade_SmoothSailing.h">
       <Filter>Headerfile</Filter>
     </ClInclude>
   </ItemGroup>
