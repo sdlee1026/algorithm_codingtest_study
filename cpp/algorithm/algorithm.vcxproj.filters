@@ -1,51 +1,63 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="소스 파일">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="헤더 파일">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
     <Filter Include="리소스 파일">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="소스 파일\programmers">
+    <Filter Include="SourceCode">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="SourceCode\programmers">
       <UniqueIdentifier>{2ca688ee-6d88-4034-9705-d1e1515538db}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\codesignal">
+    <Filter Include="SourceCode\codesignal">
       <UniqueIdentifier>{4433e2b0-f149-4e1a-87ba-563e167d8b5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\codesignal\arcade">
+      <UniqueIdentifier>{f41421a0-9a7a-47b5-8fbd-14823814416b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\codesignal\challenge">
+      <UniqueIdentifier>{7ac4b003-ded7-4155-a300-c37717e1ef66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerfile">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="algorithm.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="codesignal\codesignal_challenge_isAdmissibleOverpayment.cpp">
-      <Filter>소스 파일\codesignal</Filter>
+      <Filter>SourceCode</Filter>
     </ClCompile>
     <ClCompile Include="programmers\programmers_118667.cpp">
-      <Filter>소스 파일\programmers</Filter>
+      <Filter>SourceCode\programmers</Filter>
     </ClCompile>
     <ClCompile Include="programmers\programmers_118668.cpp">
-      <Filter>소스 파일\programmers</Filter>
+      <Filter>SourceCode\programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="codesignal\arcade\codesignal_arcade_EdgeOfTheOcean.cpp">
+      <Filter>SourceCode\codesignal\arcade</Filter>
+    </ClCompile>
+    <ClCompile Include="codesignal\challenge\codesignal_challenge_isAdmissibleOverpayment.cpp">
+      <Filter>SourceCode\codesignal\challenge</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="codeHeader.h">
-      <Filter>소스 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="codesignal\codesignal_challenge_isAdmissibleOverpayment.h">
-      <Filter>소스 파일\codesignal</Filter>
-    </ClInclude>
-    <ClInclude Include="programmers\programmers_118667.h">
-      <Filter>소스 파일\programmers</Filter>
+      <Filter>Headerfile</Filter>
     </ClInclude>
     <ClInclude Include="programmers\programmers_118668.h">
-      <Filter>소스 파일\programmers</Filter>
+      <Filter>Headerfile</Filter>
+    </ClInclude>
+    <ClInclude Include="programmers\programmers_118667.h">
+      <Filter>Headerfile</Filter>
+    </ClInclude>
+    <ClInclude Include="codesignal\challenge\codesignal_challenge_isAdmissibleOverpayment.h">
+      <Filter>Headerfile</Filter>
+    </ClInclude>
+    <ClInclude Include="codesignal\arcade\codesignal_arcade_EdgeOfTheOcean.h">
+      <Filter>Headerfile</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
