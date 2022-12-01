@@ -2,6 +2,7 @@
 #include "programmers/programmers_118667.h"
 #include "programmers/programmers_118668.h"
 #include "codesignal/codesignal_challenge_isAdmissibleOverpayment.h"
+#include "codesignal/arcade/codesignal_arcade_EdgeOfTheOcean.h"
 
 
 int main()
@@ -37,5 +38,21 @@ int main()
  "0.0% lower than in-store" };
     x = 0;
     printf("%d", solution_codesignal_challenge_isAdmissibleOverpayment(prices, notes, x));*/
+
+    // printf("%d", solution_adjacentElementsProduct({ 3, 6, -2, -5, 7, 3 }));
+
+    // printf("%d", solution_shapeArea(100));
+    // printf("%d", solution_MakeArrayConsecutive2({6,2,3,8}));
+    // printf("%d", solution_almostIncreasingSequence({ 1, 1, 2, 3, 4, 4 }));
+    /*printf("%d", solution_matrixElementsSum({
+        {0,1,1,2},
+        {0,5,0,0},
+        {2,0,3,3}
+        }));*/
+    printf("%d", solution_matrixElementsSum({
+        {1,1,1,0},
+        {0,5,0,1},
+        {2,1,3,10}
+        }));
     return 0;
 }
