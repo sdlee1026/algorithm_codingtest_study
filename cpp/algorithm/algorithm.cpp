@@ -50,10 +50,25 @@ int main()
         {0,5,0,0},
         {2,0,3,3}
         }));*/
-    printf("%d", solution_matrixElementsSum({
+    /*printf("%d", solution_matrixElementsSum({
         {1,1,1,0},
         {0,5,0,1},
         {2,1,3,10}
-        }));
+        }));*/
+    /*auto answer = solution_AllLongestStrings({"aba", "aa", "ad", "vcd", "aba"});
+    for (auto& a : answer)
+    {
+        printf("%s", a.c_str());
+    }*/
+    // printf("%d", solution_commonCharacterCount("aabcc", "adcaa"));
+    // printf("%d", solution_isLucky(1230));
+    /*
+    auto answer = solution_SortByHeight({ -1, 150, 190, 170, -1, -1, 160, 180 });
+    for (auto& a : answer)
+    {
+        printf("%d\n", a);
+    }*/
+    string a = "foo(bar)baz(blim)";
+    printf("%s", solution_reverseInParentheses(a).c_str());
     return 0;
 }
