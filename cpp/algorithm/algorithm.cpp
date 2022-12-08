@@ -4,6 +4,7 @@
 #include "codesignal/challenge/codesignal_challenge_isAdmissibleOverpayment.h"
 #include "codesignal/arcade/codesignal_arcade_EdgeOfTheOcean.h"
 #include "codesignal/arcade/codesignal_arcade_SmoothSailing.h"
+#include "codesignal/arcade/codesignal_arcade_ExploringTheWaters.h"
 
 
 int main()
@@ -68,7 +69,19 @@ int main()
     {
         printf("%d\n", a);
     }*/
-    string a = "foo(bar)baz(blim)";
-    printf("%s", solution_reverseInParentheses(a).c_str());
+    /*string a = "foo(bar)baz(blim)";
+    printf("%s", solution_reverseInParentheses(a).c_str());*/
+
+    /*auto a = solution_alternatingSums({50,60,60,45,70});
+    
+    for (auto& n : a)
+        printf("%d  ", n);*/
+    /*auto a = solution_AddBorder({"abc","ded"});
+    for (auto& s : a)
+        printf("%s\n", s.c_str());*/
+    /*auto a = solution_AreSimilar({832, 998, 148, 570, 533, 561, 894, 147, 455, 279}, {832, 570, 148, 998, 533, 561, 455, 147, 894, 279});
+    printf("%d", a);*/
+    // printf("%d", solution_arrayChange({ -1000, 0, -2, 0 }));
+    printf("%d", solution_palindromeRearranging("zyyzzzzz"));
     return 0;
 }
