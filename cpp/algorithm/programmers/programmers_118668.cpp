@@ -130,7 +130,7 @@ int solve(int alp, int cop, vector<vector<int>>& problems, int goalALP, int goal
 }
 int solution_118668(int alp, int cop, vector<vector<int>> problems)
 {
-    int goalALP = 0, goalCOP =0;
+    int goalALP = 0, goalCOP = 0;
     int cache[151][151] = {0,};
     for (vector<int> v : problems)
     {
