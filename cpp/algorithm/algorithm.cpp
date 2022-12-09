@@ -87,5 +87,29 @@ int main()
 
     // printf("%d", solution_areEquallyStrong(10, 15, 15, 10));
     // printf("%d", solution_arrayMaximalAdjacentDifference({ 2, 4, 1, 0 }));
+    // printf("%d", solution_isIPv4Address("1.1.1.1a"));
+    // printf("%d", solution_avoidObstacles({ 19, 32, 11, 23 }));
+    /*auto a = solution_BoxBlur({
+        {1,1,1},
+        {1,7,1},
+        {1,1,1}
+        });
+    for (auto& q : a)
+    {
+        for (auto& qq: q)
+            printf("%d", qq);
+    }*/
+
+    auto Vec = solution_Minesweeper({
+        {true, false, false},
+        {false, true, false},
+        {false, false, false},
+        });
+    for (auto& n : Vec)
+    {
+        for (auto& nn : n)
+            printf("%d", nn);
+        printf("\n");
+    }
     return 0;
 }
