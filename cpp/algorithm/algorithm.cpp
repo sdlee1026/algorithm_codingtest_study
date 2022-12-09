@@ -5,6 +5,7 @@
 #include "codesignal/arcade/codesignal_arcade_EdgeOfTheOcean.h"
 #include "codesignal/arcade/codesignal_arcade_SmoothSailing.h"
 #include "codesignal/arcade/codesignal_arcade_ExploringTheWaters.h"
+#include "codesignal/arcade/codesignal_arcade_IslandOfKnowledge.h"
 
 
 int main()
@@ -82,6 +83,9 @@ int main()
     /*auto a = solution_AreSimilar({832, 998, 148, 570, 533, 561, 894, 147, 455, 279}, {832, 570, 148, 998, 533, 561, 455, 147, 894, 279});
     printf("%d", a);*/
     // printf("%d", solution_arrayChange({ -1000, 0, -2, 0 }));
-    printf("%d", solution_palindromeRearranging("zyyzzzzz"));
+    // printf("%d", solution_palindromeRearranging("zyyzzzzz"));
+
+    // printf("%d", solution_areEquallyStrong(10, 15, 15, 10));
+    // printf("%d", solution_arrayMaximalAdjacentDifference({ 2, 4, 1, 0 }));
     return 0;
 }

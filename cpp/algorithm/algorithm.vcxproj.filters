@@ -48,6 +48,9 @@
     <ClCompile Include="codesignal\arcade\codesignal_arcade_ExploringTheWaters.cpp">
       <Filter>SourceCode\codesignal\arcade</Filter>
     </ClCompile>
+    <ClCompile Include="codesignal\arcade\codesignal_arcade_IslandOfKnowledge.cpp">
+      <Filter>SourceCode\codesignal\arcade</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="codeHeader.h">
@@ -69,6 +72,9 @@
       <Filter>Headerfile</Filter>
     </ClInclude>
     <ClInclude Include="codesignal\arcade\codesignal_arcade_ExploringTheWaters.h">
+      <Filter>Headerfile</Filter>
+    </ClInclude>
+    <ClInclude Include="codesignal\arcade\codesignal_arcade_IslandOfKnowledge.h">
       <Filter>Headerfile</Filter>
     </ClInclude>
   </ItemGroup>
