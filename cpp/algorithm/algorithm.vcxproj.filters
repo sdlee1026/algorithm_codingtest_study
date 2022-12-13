@@ -54,6 +54,24 @@
     <ClCompile Include="codesignal\arcade\codesignal_arcade_RainsOfReason.cpp">
       <Filter>SourceCode\codesignal\arcade</Filter>
     </ClCompile>
+    <ClCompile Include="codesignal\arcade\codesignal_arcade_ThroughTheFog.cpp">
+      <Filter>SourceCode\codesignal\arcade</Filter>
+    </ClCompile>
+    <ClCompile Include="codesignal\arcade\codesignal_arcade_DivingDeeper.cpp">
+      <Filter>SourceCode\codesignal\arcade</Filter>
+    </ClCompile>
+    <ClCompile Include="codesignal\arcade\codesignal_arcade_DarkWilderness.cpp">
+      <Filter>SourceCode\codesignal\arcade</Filter>
+    </ClCompile>
+    <ClCompile Include="codesignal\arcade\codesignal_arcade_EruptionOfLight.cpp">
+      <Filter>SourceCode\codesignal\arcade</Filter>
+    </ClCompile>
+    <ClCompile Include="codesignal\arcade\codesignal_arcade_RainbowOfClarity.cpp">
+      <Filter>SourceCode\codesignal\arcade</Filter>
+    </ClCompile>
+    <ClCompile Include="codesignal\arcade\codesignal_arcade_LandOfLogic.cpp">
+      <Filter>SourceCode\codesignal\arcade</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="codeHeader.h">
@@ -81,6 +99,24 @@
       <Filter>Headerfile</Filter>
     </ClInclude>
     <ClInclude Include="codesignal\arcade\codesignal_arcade_RainsOfReason.h">
+      <Filter>Headerfile</Filter>
+    </ClInclude>
+    <ClInclude Include="codesignal\arcade\codesignal_arcade_ThroughTheFog.h">
+      <Filter>Headerfile</Filter>
+    </ClInclude>
+    <ClInclude Include="codesignal\arcade\codesignal_arcade_DivingDeeper.h">
+      <Filter>Headerfile</Filter>
+    </ClInclude>
+    <ClInclude Include="codesignal\arcade\codesignal_arcade_DarkWilderness.h">
+      <Filter>Headerfile</Filter>
+    </ClInclude>
+    <ClInclude Include="codesignal\arcade\codesignal_arcade_EruptionOfLight.h">
+      <Filter>Headerfile</Filter>
+    </ClInclude>
+    <ClInclude Include="codesignal\arcade\codesignal_arcade_RainbowOfClarity.h">
+      <Filter>Headerfile</Filter>
+    </ClInclude>
+    <ClInclude Include="codesignal\arcade\codesignal_arcade_LandOfLogic.h">
       <Filter>Headerfile</Filter>
     </ClInclude>
   </ItemGroup>

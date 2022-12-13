@@ -128,22 +128,34 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="algorithm.cpp" />
+    <ClCompile Include="codesignal\arcade\codesignal_arcade_DarkWilderness.cpp" />
+    <ClCompile Include="codesignal\arcade\codesignal_arcade_DivingDeeper.cpp" />
     <ClCompile Include="codesignal\arcade\codesignal_arcade_EdgeOfTheOcean.cpp" />
+    <ClCompile Include="codesignal\arcade\codesignal_arcade_EruptionOfLight.cpp" />
     <ClCompile Include="codesignal\arcade\codesignal_arcade_IslandOfKnowledge.cpp" />
+    <ClCompile Include="codesignal\arcade\codesignal_arcade_LandOfLogic.cpp" />
+    <ClCompile Include="codesignal\arcade\codesignal_arcade_RainbowOfClarity.cpp" />
     <ClCompile Include="codesignal\arcade\codesignal_arcade_RainsOfReason.cpp" />
     <ClCompile Include="codesignal\arcade\codesignal_arcade_SmoothSailing.cpp" />
     <ClCompile Include="codesignal\arcade\codesignal_arcade_ExploringTheWaters.cpp" />
+    <ClCompile Include="codesignal\arcade\codesignal_arcade_ThroughTheFog.cpp" />
     <ClCompile Include="codesignal\challenge\codesignal_challenge_isAdmissibleOverpayment.cpp" />
     <ClCompile Include="programmers\programmers_118667.cpp" />
     <ClCompile Include="programmers\programmers_118668.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="codeHeader.h" />
+    <ClInclude Include="codesignal\arcade\codesignal_arcade_DarkWilderness.h" />
+    <ClInclude Include="codesignal\arcade\codesignal_arcade_DivingDeeper.h" />
     <ClInclude Include="codesignal\arcade\codesignal_arcade_EdgeOfTheOcean.h" />
+    <ClInclude Include="codesignal\arcade\codesignal_arcade_EruptionOfLight.h" />
     <ClInclude Include="codesignal\arcade\codesignal_arcade_ExploringTheWaters.h" />
     <ClInclude Include="codesignal\arcade\codesignal_arcade_IslandOfKnowledge.h" />
+    <ClInclude Include="codesignal\arcade\codesignal_arcade_LandOfLogic.h" />
+    <ClInclude Include="codesignal\arcade\codesignal_arcade_RainbowOfClarity.h" />
     <ClInclude Include="codesignal\arcade\codesignal_arcade_RainsOfReason.h" />
     <ClInclude Include="codesignal\arcade\codesignal_arcade_SmoothSailing.h" />
+    <ClInclude Include="codesignal\arcade\codesignal_arcade_ThroughTheFog.h" />
     <ClInclude Include="codesignal\challenge\codesignal_challenge_isAdmissibleOverpayment.h" />
     <ClInclude Include="programmers\programmers_118667.h" />
     <ClInclude Include="programmers\programmers_118668.h" />

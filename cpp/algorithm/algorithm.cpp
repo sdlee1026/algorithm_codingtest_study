@@ -7,6 +7,12 @@
 #include "codesignal/arcade/codesignal_arcade_ExploringTheWaters.h"
 #include "codesignal/arcade/codesignal_arcade_IslandOfKnowledge.h"
 #include "codesignal/arcade/codesignal_arcade_RainsOfReason.h"
+#include "codesignal/arcade/codesignal_arcade_ThroughTheFog.h"
+#include "codesignal/arcade/codesignal_arcade_DivingDeeper.h"
+#include "codesignal/arcade/codesignal_arcade_DarkWilderness.h"
+#include "codesignal/arcade/codesignal_arcade_EruptionOfLight.h"
+#include "codesignal/arcade/codesignal_arcade_RainbowOfClarity.h"
+#include "codesignal/arcade/codesignal_arcade_LandOfLogic.h"
 
 int main()
 {
