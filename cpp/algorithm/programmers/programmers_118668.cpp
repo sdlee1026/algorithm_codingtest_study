@@ -113,7 +113,7 @@ int solve(int alp, int cop, vector<vector<int>>& problems, int goalALP, int goal
     int& valueCheck = cache[alp][cop];
     if (valueCheck != 0) // 값이 이미 있다면 리턴
         return valueCheck;
-    valueCheck = 1e9; // 무한대
+    valueCheck = (double)1e9; // 무한대
 
     // 문제
     for (vector<int> v : problems) {

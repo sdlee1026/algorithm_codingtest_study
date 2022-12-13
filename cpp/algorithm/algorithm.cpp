@@ -79,9 +79,12 @@ int main()
         printf("%d  ", n);*/
     /*auto a = solution_AddBorder({"abc","ded"});
     for (auto& s : a)
-        printf("%s\n", s.c_str());*/
-    /*auto a = solution_AreSimilar({832, 998, 148, 570, 533, 561, 894, 147, 455, 279}, {832, 570, 148, 998, 533, 561, 455, 147, 894, 279});
-    printf("%d", a);*/
+        printf("%s\n", s.c_str());
+        */
+    /*
+    auto a = solution_AreSimilar({832, 998, 148, 570, 533, 561, 894, 147, 455, 279}, {832, 570, 148, 998, 533, 561, 455, 147, 894, 279});
+    printf("%d", a);
+    */
     // printf("%d", solution_arrayChange({ -1000, 0, -2, 0 }));
     // printf("%d", solution_palindromeRearranging("zyyzzzzz"));
 
@@ -89,7 +92,8 @@ int main()
     // printf("%d", solution_arrayMaximalAdjacentDifference({ 2, 4, 1, 0 }));
     // printf("%d", solution_isIPv4Address("1.1.1.1a"));
     // printf("%d", solution_avoidObstacles({ 19, 32, 11, 23 }));
-    /*auto a = solution_BoxBlur({
+    /*
+    auto a = solution_BoxBlur({
         {1,1,1},
         {1,7,1},
         {1,1,1}
@@ -98,9 +102,11 @@ int main()
     {
         for (auto& qq: q)
             printf("%d", qq);
-    }*/
+    }
+    */
 
-    /*auto Vec = solution_Minesweeper({
+    /*
+    auto Vec = solution_Minesweeper({
         {true, false, false},
         {false, true, false},
         {false, false, false},
@@ -110,12 +116,21 @@ int main()
         for (auto& nn : n)
             printf("%d", nn);
         printf("\n");
-    }*/
-    /*auto a = solution_ArrayReplace({1,2,3,2,1}, 3, 0);
+    }
+    */
+
+    /*
+    auto a = solution_ArrayReplace({1,2,3,2,1}, 3, 0);
     for (auto& n : a)
     {
         printf("%d ", n);
-    }*/
-    printf("%d", solution_evenDigitsOnly(268622));
+    }
+    */
+    // printf("%d", solution_evenDigitsOnly(268622));
+    
+    printf("%d\n", solution_variableName("var_1___Int"));
+    printf("%d\n", solution_variableNameRegex("var_1___Int"));
+    printf("%s\n", solution_alphabeticShift("crazy").c_str());
+
     return 0;
 }
