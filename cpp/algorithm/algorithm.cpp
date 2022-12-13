@@ -127,10 +127,12 @@ int main()
     }
     */
     // printf("%d", solution_evenDigitsOnly(268622));
-    
+    /*
     printf("%d\n", solution_variableName("var_1___Int"));
     printf("%d\n", solution_variableNameRegex("var_1___Int"));
     printf("%s\n", solution_alphabeticShift("crazy").c_str());
-
+    printf("%d\n", solution_chessBoardCellColor("A1", "C3"));
+    */
+    
     return 0;
 }
