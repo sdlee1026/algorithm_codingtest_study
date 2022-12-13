@@ -130,6 +130,7 @@
     <ClCompile Include="algorithm.cpp" />
     <ClCompile Include="codesignal\arcade\codesignal_arcade_EdgeOfTheOcean.cpp" />
     <ClCompile Include="codesignal\arcade\codesignal_arcade_IslandOfKnowledge.cpp" />
+    <ClCompile Include="codesignal\arcade\codesignal_arcade_RainsOfReason.cpp" />
     <ClCompile Include="codesignal\arcade\codesignal_arcade_SmoothSailing.cpp" />
     <ClCompile Include="codesignal\arcade\codesignal_arcade_ExploringTheWaters.cpp" />
     <ClCompile Include="codesignal\challenge\codesignal_challenge_isAdmissibleOverpayment.cpp" />
@@ -141,6 +142,7 @@
     <ClInclude Include="codesignal\arcade\codesignal_arcade_EdgeOfTheOcean.h" />
     <ClInclude Include="codesignal\arcade\codesignal_arcade_ExploringTheWaters.h" />
     <ClInclude Include="codesignal\arcade\codesignal_arcade_IslandOfKnowledge.h" />
+    <ClInclude Include="codesignal\arcade\codesignal_arcade_RainsOfReason.h" />
     <ClInclude Include="codesignal\arcade\codesignal_arcade_SmoothSailing.h" />
     <ClInclude Include="codesignal\challenge\codesignal_challenge_isAdmissibleOverpayment.h" />
     <ClInclude Include="programmers\programmers_118667.h" />

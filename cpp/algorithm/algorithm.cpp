@@ -6,7 +6,7 @@
 #include "codesignal/arcade/codesignal_arcade_SmoothSailing.h"
 #include "codesignal/arcade/codesignal_arcade_ExploringTheWaters.h"
 #include "codesignal/arcade/codesignal_arcade_IslandOfKnowledge.h"
-
+#include "codesignal/arcade/codesignal_arcade_RainsOfReason.h"
 
 int main()
 {
@@ -100,7 +100,7 @@ int main()
             printf("%d", qq);
     }*/
 
-    auto Vec = solution_Minesweeper({
+    /*auto Vec = solution_Minesweeper({
         {true, false, false},
         {false, true, false},
         {false, false, false},
@@ -110,6 +110,12 @@ int main()
         for (auto& nn : n)
             printf("%d", nn);
         printf("\n");
-    }
+    }*/
+    /*auto a = solution_ArrayReplace({1,2,3,2,1}, 3, 0);
+    for (auto& n : a)
+    {
+        printf("%d ", n);
+    }*/
+    printf("%d", solution_evenDigitsOnly(268622));
     return 0;
 }

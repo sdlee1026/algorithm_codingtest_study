@@ -51,6 +51,9 @@
     <ClCompile Include="codesignal\arcade\codesignal_arcade_IslandOfKnowledge.cpp">
       <Filter>SourceCode\codesignal\arcade</Filter>
     </ClCompile>
+    <ClCompile Include="codesignal\arcade\codesignal_arcade_RainsOfReason.cpp">
+      <Filter>SourceCode\codesignal\arcade</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="codeHeader.h">
@@ -75,6 +78,9 @@
       <Filter>Headerfile</Filter>
     </ClInclude>
     <ClInclude Include="codesignal\arcade\codesignal_arcade_IslandOfKnowledge.h">
+      <Filter>Headerfile</Filter>
+    </ClInclude>
+    <ClInclude Include="codesignal\arcade\codesignal_arcade_RainsOfReason.h">
       <Filter>Headerfile</Filter>
     </ClInclude>
   </ItemGroup>
