@@ -141,6 +141,7 @@ int main()
     */
     // printf("%d\n", solution_CircleOfNumbers(10, 2));
     // printf("%d\n", solution_depositProfit(100, 20, 170));
-    printf("%d\n", solution_absoluteValuesSumMinimization({ 2,4,7 }));
+    // printf("%d\n", solution_absoluteValuesSumMinimization({ 2,4,7 }));
+    printf("%d\n", solution_stringsRearrangement({ "aba", "bbb", "bab" }));
     return 0;
 }
