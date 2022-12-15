@@ -142,6 +142,11 @@ int main()
     // printf("%d\n", solution_CircleOfNumbers(10, 2));
     // printf("%d\n", solution_depositProfit(100, 20, 170));
     // printf("%d\n", solution_absoluteValuesSumMinimization({ 2,4,7 }));
-    printf("%d\n", solution_stringsRearrangement({ "aba", "bbb", "bab" }));
+    // printf("%d\n", solution_stringsRearrangement({ "aba", "bbb", "bab" }));
+
+    auto a = solution_extractEachKth({ 2, 4, 6, 8, 10 }, 2);
+    for (auto n : a)
+        printf("%d\n", n);
+        
     return 0;
 }
