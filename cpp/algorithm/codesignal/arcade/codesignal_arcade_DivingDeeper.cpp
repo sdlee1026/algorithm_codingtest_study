@@ -52,3 +52,60 @@ char solution_firstDigit(string inputString)
 		if (c <= '9' && c >= '0')
 			return c;
 }
+
+/*
+
+	Given a string, find the number of different characters in it.
+	For s = "cabca", the output should be
+	solution(s) = 3.
+
+	There are 3 different characters a, b and c
+
+	[input] string s
+
+	A string of lowercase English letters.
+*/
+// https://app.codesignal.com/arcade/intro/level-8/8N7p3MqzGQg5vFJfZ
+int solution_differentSymbolsNaive(string s)
+{
+	int intAry[123] = { 0, };
+	int answer = 0;
+	for (auto c : s)
+		intAry[int(c)]++;
+	for (int i = 97; i < 123; i++)
+		if (intAry[i] > 0)
+			answer++;
+	return answer;
+}
+
+/*
+
+	Given array of integers, find the maximal possible sum of some of its k consecutive elements.
+
+	Example
+
+	For inputArray = [2, 3, 5, 1, 6] and k = 2, the output should be
+	solution(inputArray, k) = 8.
+	All possible sums of 2 consecutive elements are:
+
+	2 + 3 = 5;
+	3 + 5 = 8;
+	5 + 1 = 6;
+	1 + 6 = 7.
+	Thus, the answer is 8.
+
+*/
+// https://app.codesignal.com/arcade/intro/level-8/Rqvw3daffNE7sT7d5
+int solution_arrayMaxConsecutiveSum(vector<int> inputArray, int k)
+{
+	int accInt = accumulate(inputArray.begin(), inputArray.begin() + k, 0);
+	vector<int> result;
+	result.push_back(accInt);
+	for (int i = 0; i < inputArray.size() - (k); i++)
+	{
+		accInt += inputArray[i + k] - inputArray[i];
+		result.push_back(accInt);
+	}
+	
+	return *max_element(result.begin(), result.end());
+}

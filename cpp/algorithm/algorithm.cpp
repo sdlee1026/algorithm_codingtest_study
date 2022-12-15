@@ -147,6 +147,9 @@ int main()
     auto a = solution_extractEachKth({ 2, 4, 6, 8, 10 }, 2);
     for (auto n : a)
         printf("%d\n", n);
-        
+    printf("%c\n", solution_firstDigit("var_1__Int"));
+    printf("%d\n", solution_differentSymbolsNaive("cabcaz"));
+    printf("%d\n", solution_arrayMaxConsecutiveSum({ 2,3,5,1,6 }, 2));
+
     return 0;
 }
