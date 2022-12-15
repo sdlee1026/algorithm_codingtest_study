@@ -139,6 +139,8 @@ int main()
     printf("%s\n", solution_alphabeticShift("crazy").c_str());
     printf("%d\n", solution_chessBoardCellColor("A1", "C3"));
     */
-    
+    // printf("%d\n", solution_CircleOfNumbers(10, 2));
+    // printf("%d\n", solution_depositProfit(100, 20, 170));
+    printf("%d\n", solution_absoluteValuesSumMinimization({ 2,4,7 }));
     return 0;
 }
