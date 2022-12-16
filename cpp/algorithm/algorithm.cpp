@@ -144,12 +144,18 @@ int main()
     // printf("%d\n", solution_absoluteValuesSumMinimization({ 2,4,7 }));
     // printf("%d\n", solution_stringsRearrangement({ "aba", "bbb", "bab" }));
 
-    auto a = solution_extractEachKth({ 2, 4, 6, 8, 10 }, 2);
+    /*
+    auto a = solution_extractEachKth({2, 4, 6, 8, 10}, 2);
     for (auto n : a)
         printf("%d\n", n);
     printf("%c\n", solution_firstDigit("var_1__Int"));
     printf("%d\n", solution_differentSymbolsNaive("cabcaz"));
     printf("%d\n", solution_arrayMaxConsecutiveSum({ 2,3,5,1,6 }, 2));
+    */
 
+    printf("%d\n", solution_growingPlant(100, 10, 910));
+    printf("%d\n", solution_KnapsackLight(10, 5, 6, 4, 8));
+    printf("%s\n", solution_longestDigitsPrefix("123aa1").c_str());
+    printf("%d\n", solution_digitDegree(91));
     return 0;
 }
