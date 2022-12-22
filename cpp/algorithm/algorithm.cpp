@@ -153,9 +153,13 @@ int main()
     printf("%d\n", solution_arrayMaxConsecutiveSum({ 2,3,5,1,6 }, 2));
     */
 
-    printf("%d\n", solution_growingPlant(100, 10, 910));
+    /*printf("%d\n", solution_growingPlant(100, 10, 910));
     printf("%d\n", solution_KnapsackLight(10, 5, 6, 4, 8));
     printf("%s\n", solution_longestDigitsPrefix("123aa1").c_str());
-    printf("%d\n", solution_digitDegree(91));
+    printf("%d\n", solution_digitDegree(91));*/
+
+    printf("%d\n", solution_isBeautifulString("bbbaacdafe"));
+    printf("%s\n", solution_FindEmailDomain("joHn.Smith@example.com").c_str());
+    printf("%s\n", solution_buildPalindrome("abcdc").c_str());
     return 0;
 }
