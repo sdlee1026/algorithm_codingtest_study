@@ -161,5 +161,7 @@ int main()
     printf("%d\n", solution_isBeautifulString("bbbaacdafe"));
     printf("%s\n", solution_FindEmailDomain("joHn.Smith@example.com").c_str());
     printf("%s\n", solution_buildPalindrome("abcdc").c_str());
+    printf("%d\n", solution_ElectionsWinners({ 1,3,3,1,1 }, 0));
+    printf("%d\n", solution_IsMAC48Address("00-1B-63-84-45-E6"));
     return 0;
 }
