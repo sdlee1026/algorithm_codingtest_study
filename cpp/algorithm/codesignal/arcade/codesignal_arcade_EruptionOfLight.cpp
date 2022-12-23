@@ -142,6 +142,6 @@ int solution_ElectionsWinners(vector<int> votes, int k)
 // https://app.codesignal.com/arcade/intro/level-10/HJ2thsvjL25iCvvdm
 bool solution_IsMAC48Address(string inputString)
 {
-	regex re("[A-F0-9]{2}-[A-F0-9]{2}-[A-F0-9]{2}-[A-F0-9]{2}-[A-F0-9]{2}-[A-F0-9]{2}");
+	regex re("[A-F0-9]{2}(-[A-F0-9]{2}){5}");
 	return regex_match(inputString, re);
 }
