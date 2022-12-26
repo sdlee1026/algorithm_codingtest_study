@@ -167,10 +167,36 @@ int main()
     printf("%d\n", solution_ElectionsWinners({ 1,3,3,1,1 }, 0));
     printf("%d\n", solution_IsMAC48Address("00-1B-63-84-45-E6"));
     */
-
+    /*
     printf("%d\n", solution_isDigit('0'));
     printf("%s\n", solution_lineEncoding("aabbbc").c_str());
     printf("%d\n", solution_chessKnight("a1"));
     printf("%d\n", solution_deleteDigit(1001));
+    */
+
+    printf("%s\n", solution_longestWord("Ready, steady, go!").c_str());
+    printf("%d\n", solution_ValidTime("13:58"));
+    printf("%d\n", solution_sumUpNumbers("1234560"));
+    printf("%d\n", solution_DifferentSquares({ {1,2,1}, {2,2,2}, {2,2,2}, {1,2,3}, {2,2,1} }));
+    printf("%d\n", solution_digitsProduct(12));
+    for (auto a : solution_FileNaming({ "dd", "dd(1)", "dd(2)", "dd", "dd(1)", "dd(1)(2)", "dd(1)(1)", "dd", "dd(1)" }))
+        printf("%s\n", a.c_str());
+    printf("%s\n", solution_messageFromBinaryCode("010010000110010101101100011011000110111100100001").c_str());
+
+    for (auto ary : solution_spiralNumbers(3))
+    {
+        for (auto n : ary)
+            printf("%d ", n);
+        printf("\n");
+    }
+    printf("%d\n", solution_Sudoku({ {1, 3, 2, 5, 4, 6, 9, 8, 7},
+        {4, 6, 5, 8, 7, 9, 3, 2, 1},
+        {7, 9, 8, 2, 1, 3, 6, 5, 4},
+        {9, 2, 1, 4, 3, 5, 8, 7, 6},
+        {3, 5, 4, 7, 6, 8, 2, 1, 9},
+        {6, 8, 7, 1, 9, 2, 5, 4, 3},
+        {5, 7, 6, 9, 8, 1, 4, 3, 2},
+        {2, 4, 3, 6, 5, 7, 1, 9, 8},
+        {8, 1, 9, 3, 2, 4, 7, 6, 5} }));
     return 0;
 }
