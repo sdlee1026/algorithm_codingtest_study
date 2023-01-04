@@ -13,6 +13,7 @@
 #include "codesignal/arcade/codesignal_arcade_EruptionOfLight.h"
 #include "codesignal/arcade/codesignal_arcade_RainbowOfClarity.h"
 #include "codesignal/arcade/codesignal_arcade_LandOfLogic.h"
+#include "codesignal/interviewPractice/codesignal_interview_Arrays.h"
 
 int main()
 {
@@ -174,6 +175,7 @@ int main()
     printf("%d\n", solution_deleteDigit(1001));
     */
 
+    /*
     printf("%s\n", solution_longestWord("Ready, steady, go!").c_str());
     printf("%d\n", solution_ValidTime("13:58"));
     printf("%d\n", solution_sumUpNumbers("1234560"));
@@ -198,5 +200,10 @@ int main()
         {5, 7, 6, 9, 8, 1, 4, 3, 2},
         {2, 4, 3, 6, 5, 7, 1, 9, 8},
         {8, 1, 9, 3, 2, 4, 7, 6, 5} }));
+    */
+
+    printf("%d\n", solution_firstDuplicate({ 2, 1, 3, 5, 3, 2 }));
+    printf("%c\n", solution_firstNotRepeatingCharacter("abacabad"));
+
     return 0;
 }

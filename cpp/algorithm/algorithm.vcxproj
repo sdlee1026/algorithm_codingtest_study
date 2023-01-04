@@ -139,7 +139,9 @@
     <ClCompile Include="codesignal\arcade\codesignal_arcade_SmoothSailing.cpp" />
     <ClCompile Include="codesignal\arcade\codesignal_arcade_ExploringTheWaters.cpp" />
     <ClCompile Include="codesignal\arcade\codesignal_arcade_ThroughTheFog.cpp" />
+    <ClCompile Include="codesignal\challenge\codesignal_challenge_electricField.cpp" />
     <ClCompile Include="codesignal\challenge\codesignal_challenge_isAdmissibleOverpayment.cpp" />
+    <ClCompile Include="codesignal\interviewPractice\codesignal_interview_Arrays.cpp" />
     <ClCompile Include="programmers\programmers_118667.cpp" />
     <ClCompile Include="programmers\programmers_118668.cpp" />
   </ItemGroup>
@@ -156,7 +158,9 @@
     <ClInclude Include="codesignal\arcade\codesignal_arcade_RainsOfReason.h" />
     <ClInclude Include="codesignal\arcade\codesignal_arcade_SmoothSailing.h" />
     <ClInclude Include="codesignal\arcade\codesignal_arcade_ThroughTheFog.h" />
+    <ClInclude Include="codesignal\challenge\codesignal_challenge_electricField.h" />
     <ClInclude Include="codesignal\challenge\codesignal_challenge_isAdmissibleOverpayment.h" />
+    <ClInclude Include="codesignal\interviewPractice\codesignal_interview_Arrays.h" />
     <ClInclude Include="programmers\programmers_118667.h" />
     <ClInclude Include="programmers\programmers_118668.h" />
   </ItemGroup>

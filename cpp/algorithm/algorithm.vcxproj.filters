@@ -25,6 +25,24 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
+    <Filter Include="Headerfile\codesignal">
+      <UniqueIdentifier>{d6c37e42-a89e-4fca-8a15-e149ef4a8010}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerfile\programmers">
+      <UniqueIdentifier>{2169d35e-6f71-4a20-a9ec-2b9855dac4d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerfile\codesignal\arcade">
+      <UniqueIdentifier>{467cf824-2a5d-46e6-8d1d-2a181180b606}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerfile\codesignal\challenge">
+      <UniqueIdentifier>{1c26f0fc-0d99-4f52-bae6-a4c36bae9614}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerfile\codesignal\interviewPractice">
+      <UniqueIdentifier>{de812aec-9a8c-40c9-bc66-2d0320481dca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\codesignal\interviewPractice">
+      <UniqueIdentifier>{911c3061-7791-433a-adf1-4fb8efb44be8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="algorithm.cpp">
@@ -72,52 +90,64 @@
     <ClCompile Include="codesignal\arcade\codesignal_arcade_LandOfLogic.cpp">
       <Filter>SourceCode\codesignal\arcade</Filter>
     </ClCompile>
+    <ClCompile Include="codesignal\challenge\codesignal_challenge_electricField.cpp">
+      <Filter>SourceCode\codesignal\challenge</Filter>
+    </ClCompile>
+    <ClCompile Include="codesignal\interviewPractice\codesignal_interview_Arrays.cpp">
+      <Filter>SourceCode\codesignal\interviewPractice</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="codeHeader.h">
       <Filter>Headerfile</Filter>
     </ClInclude>
     <ClInclude Include="programmers\programmers_118668.h">
-      <Filter>Headerfile</Filter>
+      <Filter>Headerfile\programmers</Filter>
     </ClInclude>
     <ClInclude Include="programmers\programmers_118667.h">
-      <Filter>Headerfile</Filter>
-    </ClInclude>
-    <ClInclude Include="codesignal\challenge\codesignal_challenge_isAdmissibleOverpayment.h">
-      <Filter>Headerfile</Filter>
-    </ClInclude>
-    <ClInclude Include="codesignal\arcade\codesignal_arcade_EdgeOfTheOcean.h">
-      <Filter>Headerfile</Filter>
-    </ClInclude>
-    <ClInclude Include="codesignal\arcade\codesignal_arcade_SmoothSailing.h">
-      <Filter>Headerfile</Filter>
-    </ClInclude>
-    <ClInclude Include="codesignal\arcade\codesignal_arcade_ExploringTheWaters.h">
-      <Filter>Headerfile</Filter>
-    </ClInclude>
-    <ClInclude Include="codesignal\arcade\codesignal_arcade_IslandOfKnowledge.h">
-      <Filter>Headerfile</Filter>
-    </ClInclude>
-    <ClInclude Include="codesignal\arcade\codesignal_arcade_RainsOfReason.h">
-      <Filter>Headerfile</Filter>
-    </ClInclude>
-    <ClInclude Include="codesignal\arcade\codesignal_arcade_ThroughTheFog.h">
-      <Filter>Headerfile</Filter>
-    </ClInclude>
-    <ClInclude Include="codesignal\arcade\codesignal_arcade_DivingDeeper.h">
-      <Filter>Headerfile</Filter>
+      <Filter>Headerfile\programmers</Filter>
     </ClInclude>
     <ClInclude Include="codesignal\arcade\codesignal_arcade_DarkWilderness.h">
-      <Filter>Headerfile</Filter>
+      <Filter>Headerfile\codesignal\arcade</Filter>
+    </ClInclude>
+    <ClInclude Include="codesignal\arcade\codesignal_arcade_DivingDeeper.h">
+      <Filter>Headerfile\codesignal\arcade</Filter>
+    </ClInclude>
+    <ClInclude Include="codesignal\arcade\codesignal_arcade_EdgeOfTheOcean.h">
+      <Filter>Headerfile\codesignal\arcade</Filter>
     </ClInclude>
     <ClInclude Include="codesignal\arcade\codesignal_arcade_EruptionOfLight.h">
-      <Filter>Headerfile</Filter>
+      <Filter>Headerfile\codesignal\arcade</Filter>
     </ClInclude>
-    <ClInclude Include="codesignal\arcade\codesignal_arcade_RainbowOfClarity.h">
-      <Filter>Headerfile</Filter>
+    <ClInclude Include="codesignal\arcade\codesignal_arcade_ExploringTheWaters.h">
+      <Filter>Headerfile\codesignal\arcade</Filter>
+    </ClInclude>
+    <ClInclude Include="codesignal\arcade\codesignal_arcade_IslandOfKnowledge.h">
+      <Filter>Headerfile\codesignal\arcade</Filter>
     </ClInclude>
     <ClInclude Include="codesignal\arcade\codesignal_arcade_LandOfLogic.h">
-      <Filter>Headerfile</Filter>
+      <Filter>Headerfile\codesignal\arcade</Filter>
+    </ClInclude>
+    <ClInclude Include="codesignal\arcade\codesignal_arcade_RainbowOfClarity.h">
+      <Filter>Headerfile\codesignal\arcade</Filter>
+    </ClInclude>
+    <ClInclude Include="codesignal\arcade\codesignal_arcade_RainsOfReason.h">
+      <Filter>Headerfile\codesignal\arcade</Filter>
+    </ClInclude>
+    <ClInclude Include="codesignal\arcade\codesignal_arcade_SmoothSailing.h">
+      <Filter>Headerfile\codesignal\arcade</Filter>
+    </ClInclude>
+    <ClInclude Include="codesignal\arcade\codesignal_arcade_ThroughTheFog.h">
+      <Filter>Headerfile\codesignal\arcade</Filter>
+    </ClInclude>
+    <ClInclude Include="codesignal\challenge\codesignal_challenge_isAdmissibleOverpayment.h">
+      <Filter>Headerfile\codesignal\challenge</Filter>
+    </ClInclude>
+    <ClInclude Include="codesignal\challenge\codesignal_challenge_electricField.h">
+      <Filter>Headerfile\codesignal\challenge</Filter>
+    </ClInclude>
+    <ClInclude Include="codesignal\interviewPractice\codesignal_interview_Arrays.h">
+      <Filter>Headerfile\codesignal\interviewPractice</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
