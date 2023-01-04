@@ -29,8 +29,8 @@
 // https://app.codesignal.com/interview-practice/question/pMvymcahZ8dY4g75q/description
 int solution_firstDuplicate(vector<int> a)
 {
-    vector<int>vec(a.size() + 1);
-    vec = { 0, };
+    vector<int>vec(a.size() + 1, 0);
+    
     for (auto n : a)
     {
         if (vec[n] == 1)
@@ -76,4 +76,40 @@ char solution_firstNotRepeatingCharacter(string s)
         if (count[int(str) - 97] == 1)
             return char(str);
     return '_';
+}
+
+/*
+
+    Note: Try to solve this task in-place (with O(1) additional memory), since this is what you'll be asked to do during an interview.
+
+    You are given an n x n 2D matrix that represents an image. Rotate the image by 90 degrees (clockwise).
+
+    Example
+
+    For
+
+    a = [[1, 2, 3],
+         [4, 5, 6],
+         [7, 8, 9]]
+    the output should be
+
+    solution(a) =
+        [[7, 4, 1],
+         [8, 5, 2],
+         [9, 6, 3]]
+
+*/
+// https://app.codesignal.com/interview-practice/question/5A8jwLGcEpTPyyjTB/description
+vector<vector<int>> solution_rotateImage(vector<vector<int>> a)
+{
+    vector<vector<int>> v;
+    int size = a.size();
+    for (int i = 0; i < size; ++i)
+    {
+        vector <int> tempV;
+        for (int j = 0; j < size; ++j)
+            tempV.push_back(a[size - j - 1][i]);
+        v.push_back(tempV);
+    }
+    return v;
 }

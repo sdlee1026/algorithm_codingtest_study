@@ -204,6 +204,11 @@ int main()
 
     printf("%d\n", solution_firstDuplicate({ 2, 1, 3, 5, 3, 2 }));
     printf("%c\n", solution_firstNotRepeatingCharacter("abacabad"));
-
+    for (auto v : solution_rotateImage({ { 1,2,3 }, { 4,5,6 }, { 7,8,9 } }))
+    {
+        for (auto n : v)
+            printf("%d ", n);
+        printf("\n");
+    }
     return 0;
 }
